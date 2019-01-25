@@ -12,9 +12,9 @@ var moviesRouter = require('./routes/movies');
 var actorsRouter = require('./routes/actors');
 
 var app = express();
-var passport   = require('passport')
-var session    = require('express-session')
-var bodyParser = require('body-parser')
+var passport   = require('passport');
+var session    = require('express-session');
+var bodyParser = require('body-parser');
 
 app.use(cookieParser());
 app.use(session({ secret: 'spacecat', resave: true, saveUninitialized: true}));

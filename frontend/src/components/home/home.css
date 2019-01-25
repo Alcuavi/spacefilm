@@ -1,0 +1,34 @@
+.containerHome {
+    background: url("../../tunnel-957963_1920.jpg") no-repeat center center fixed;
+    padding-top: 10vh;
+    min-height: 90vh;
+    min-width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tituloHome {
+    padding: 3em;
+    width: 80%;
+    color: white;
+    margin: auto;
+    font-size: 3.5em;
+}
+
+.mesPrueba {
+    list-style: none;
+    padding: 0;
+    width: 25%;
+    margin: auto;
+    margin-top: inherit;
+}
+.botonMesPrueba {
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1.2em;
+    background-color: black;
+    border-radius: 6px;
+    border: 3px solid red;
+    color: red;
+}
