@@ -6,7 +6,7 @@ class Home extends Component {
             <div className= "containerHome">
                 <h1 className= "tituloHome">DESCUBRELO POR TI MISMO</h1>
                 <ul className= "mesPrueba">
-                    <li className= "botonMesPrueba"> Prueba un mes GRATIS </li>
+                    <a href='#toLogin' className= "botonMesPrueba"> Prueba un mes GRATIS </a>
                 </ul>
             </div>
         )

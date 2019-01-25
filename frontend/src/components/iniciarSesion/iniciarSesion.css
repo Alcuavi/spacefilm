@@ -1,0 +1,66 @@
+.containerIniciarSesion {
+    background: url("/images/tunnel-957963_1920.jpg") no-repeat center center fixed;
+    padding-top: 10vh;
+    min-height: 90vh;
+    min-width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form1 {
+    margin: auto;
+    min-width: 30%;
+    background-color: red;
+    border-radius: 6%;
+    border: 7px solid black;
+    font-weight: bolder;
+}
+
+.form1 .p1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.change_link {
+    justify-content: space-evenly;
+display: flex;
+flex-direction: column;
+}
+
+.to_register {
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+}
+
+#password, #username {
+    background-color: black;
+    /* color: coral; */
+    border-color: black;
+    border: 3px solid black;
+}
+
+::-webkit-input-placeholder { /* Safari y Chrome */
+    color: white;
+}
+
+.b1 {
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1.2em;
+    background-color: black;
+    border-radius: 6px;
+    border: 3px solid red;
+    color: red;
+}
+
+.b1:hover {
+    transform: scale(1.2);
+}
+
+.botonIniciarSesion, .botonMesPrueba {
+    text-decoration: none;
+}

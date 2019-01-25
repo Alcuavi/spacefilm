@@ -7,7 +7,7 @@ class Navbar extends Component {
                     <div className= "navbar">
                     <h1>SPACEFILM CLUB</h1>
                     <ul className= "iniciarSesionNavbar">
-                        <li className= "botonIniciarSesion">Iniciar sesión</li>
+                        <a href='#toLogin' className= "botonIniciarSesion">Iniciar sesión</a>
                     </ul>
                     </div>
                 </div>

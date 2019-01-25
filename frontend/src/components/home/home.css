@@ -1,5 +1,5 @@
 .containerHome {
-    background: url("../../tunnel-957963_1920.jpg") no-repeat center center fixed;
+    background: url("/images/tunnel-957963_1920.jpg") no-repeat center center fixed;
     padding-top: 10vh;
     min-height: 90vh;
     min-width: 100%;
@@ -32,3 +32,12 @@
     border: 3px solid red;
     color: red;
 }
+
+.botonMesPrueba:hover {
+    box-shadow: inset 380px 0 0 0 red;
+    transition: all ease 1.8s;
+    color: black;
+    background-color: black;
+    border: 3px solid black;
+}
+

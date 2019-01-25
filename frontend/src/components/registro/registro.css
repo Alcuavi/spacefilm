@@ -1,0 +1,54 @@
+.containerRegistro {
+    background: url(/images/tunnel-957963_1920.jpg) no-repeat center center fixed;
+    padding-top: 10vh;
+    min-height: 90vh;
+    min-width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form2 {
+    margin: auto;
+    min-width: 30%;
+    background-color: red;
+    border-radius: 6%;
+    border: 7px solid black;
+    font-weight: bolder;
+}
+
+.p2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.b2 {
+    padding: 10px;
+    font-weight: 600;
+    background-color: black;
+    border-radius: 6px;
+    border: 3px solid red;
+    color: red;
+}
+
+.change_link {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+
+.b21{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1.2em;
+    background-color: black;
+    border-radius: 6px;
+    border: 3px solid red;
+    color: red;
+}
+
+.b21:hover {
+    transform: scale(1.2);
+}

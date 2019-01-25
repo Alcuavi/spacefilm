@@ -4,6 +4,7 @@
     padding: 1.5em;
     position: fixed;
     width: 100%;
+    z-index: 9999999;
 }
 .navbar {
     width: 90%;
